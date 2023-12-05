@@ -1,0 +1,181 @@
+/*
+:root { 
+    --primary-color: #e50914;
+    --dark-color: #141414; 
+    --light-color: #f4f4f4;
+}
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background: #000;
+    color: #999;
+}
+
+img { 
+    width: 100%; 
+}
+
+
+ul { 
+    list-style: none; 
+}
+
+h1, h2, h3, h4 {
+    color: ghostwhite;
+}
+
+a {
+    color: ghostwhite;
+    text-decoration: none;;
+}
+
+p {
+    margin: 0.5rem 0; 
+}
+
+img { 
+    width: 100%;
+}
+
+
+.showcase { 
+    width: 100%; 
+    height: 70vh; 
+    position: relative; 
+    background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+}
+
+.showcase::after { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    z-index: 1; 
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250p #000, inset -120px -100px 250px #000; 
+}
+
+.showcase-top {
+    position: relative; 
+    z-index: 2; 
+    height: 90px; 
+}
+
+.showcase-top img {
+    width: 170px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-left: 0; 
+}
+
+
+/* */ 
+
+
+/* Sign in href*/ 
+.showcase-top a { 
+    position: absolute; 
+    top: 50%; 
+    right: 0; 
+    transform: translate(-50%, -50%);
+}
+
+
+/* See what's next */ 
+.showcase-content {
+    position: relative; 
+    z-index: 2; 
+    width: 65%; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-top: 8rem;
+}
+
+
+/* See what's next - Enlarged */
+.showcase-content h3 {
+    font-weight: 700; 
+    font-size: 5rem; 
+    line-height: 1.1; 
+    margin: 0 0 4rem; 
+}
+
+
+/* Watch anywhere. Cancel anytime */ 
+.showcase-content p {
+    text-transform: uppercase; 
+    color: ghostwhite; 
+    font-weight: 400; 
+    font-size: 1.9rem; 
+    line-height: 1.25;
+    margin: 0 0 2rem; 
+}
+
+
+/* Tabs */ 
+.tabs { 
+    background: var(--dark-color); 
+    padding-top: 1rem; 
+    border-bottom: 3px solid #3d3d3d; 
+    border-right: none;
+}
+
+
+/* Center the tabs */ 
+.tabs .container { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem; 
+    align-items: center;
+    justify-self: center; 
+    text-align: center; 
+}
+
+
+/* */ 
+.tabs p { 
+    font-size: 1.2rem; 
+    padding-top: 0.5rem;
+}
+
+/* Rule - horizontal line - distance */ 
+.tabs .container > div { 
+    padding: 1rem 0;
+}
+
+/* Tabs - Hover */
+.tabs .container > div:hover { 
+    color: ghostwhite; 
+    cursor: pointer;
+}
+
+.tab-border { 
+    border-bottom: var(--primary-color) 4px solid; 
+}
+
+
+/* Tab Content */ 
+
+.tab-content { 
+    padding: 3rem 0; 
+    background: #000; 
+    color: ghostwhite;
+}
+
+
+/* */ 
