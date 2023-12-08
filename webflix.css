@@ -147,10 +147,14 @@ img {
 }
 
 
-/* */ 
+/* Tabs text lines */ 
 .tabs p { 
     font-size: 1.2rem; 
     padding-top: 0.5rem;
+}
+
+.fas {
+    font-size: 2.5rem;
 }
 
 /* Rule - horizontal line - distance */ 
