@@ -244,6 +244,7 @@ img {
 .footer a {
 	color: #999;
 	font-size: 0.9rem;
+	text-decoration: line-through;
 }
 
 .footer p {
