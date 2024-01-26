@@ -1,5 +1,6 @@
 # A N-Flix / Webflix landing page clone
 
--Currently in Beta-stage</br>
+This landing page is for demonstrative purposes on Github only,</br> 
+as required by law, and Github's terms of use ! 
 
 
