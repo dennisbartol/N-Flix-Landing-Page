@@ -46,6 +46,7 @@ a {
 
 p {
 	margin: 0.5rem 0;
+	
 }
 
 img {
@@ -108,18 +109,20 @@ img {
 
 .showcase-content h1 {
 	font-weight: 700;
-	font-size: 5.2rem;
+	font-size: 4rem;
 	line-height: 1.1;
-	margin: 0 0 4rem;
+	margin: 0 0 2rem;
+	/* background: hotpink; */
 }
 
 .showcase-content p {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	color: #fff;
 	font-weight: 400;
-	font-size: 1.9rem;
+	font-size: 1.5rem;
 	line-height: 1.25;
 	margin: 0 0 2rem;
+	/* background: gold; */
 }
 
 /* Tabs */
@@ -331,12 +334,14 @@ img {
 	font-size: 2rem;
 	padding: 1.5rem 2.1rem;
 	text-transform: uppercase;
+	border-radius: 5px;
 }
 
 .btn-lg {
 	font-size: 1rem;
 	padding: 0.8rem 1.3rem;
 	text-transform: uppercase;
+	border-radius: 5px;
 }
 
 .btn-icon {
