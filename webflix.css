@@ -92,6 +92,7 @@ img {
 	top: 50%;
 	right: 0;
 	transform: translate(-50%, -50%);
+	border-radius: 5px;
 }
 
 .showcase-content {
@@ -147,6 +148,12 @@ img {
 	padding-top: 0.5rem;
 }
 
+
+.fa-3x {
+    font-size: 2.4rem;
+}
+
+
 .tabs .container > div {
 	padding: 1.5rem 0;
 }
@@ -163,7 +170,7 @@ img {
 /* Tab Content */
 .tab-content {
 	padding: 3rem 0;
-	background: #000;
+	background: #010101;
 	color: #fff;
 }
 
@@ -345,7 +352,7 @@ img {
 }
 
 .btn-icon {
-	margin-left: 1rem;
+	margin-left: 2rem;
 }
 
 @media (max-width: 960px) {
