@@ -1,3 +1,4 @@
+
 /* Global Styles */
 :root {
 	--primary-color: #E50914;
@@ -449,4 +450,30 @@ img {
   .showcase-content {
 	margin-top: 3rem;
 }
+}
+
+
+
+@media (max-width: 700px) {
+    body {
+        padding: 0; 
+    }
+
+    .container {
+        padding: 0;
+        max-width: 100%; 
+    }
+
+    .table {
+        width: 100%; 
+    }
+
+    .table thead th,
+    .table tbody tr td {
+        padding: 0.5rem; 
+    }
+
+    .footer {
+        max-width: 100%; 
+    }
 }
